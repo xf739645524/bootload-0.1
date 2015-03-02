@@ -1,3 +1,0 @@
-ifndef TEXT_BASE
-TEXT_BASE = 0xCFE00000
-endif
