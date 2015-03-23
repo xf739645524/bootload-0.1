@@ -130,11 +130,10 @@ int init_baudrate(void)
 int print_cpuinfo(void)
 {
     printf("****************************************\r\n");
-    printf("**    u-boot 1.1.6                    **\r\n");
-    printf("**    Updated for OK6410 		Board **\r\n");
-    printf("**    Version (2012-09-23)            **\r\n");
-    printf("**    OEM: Forlinx Embedded           **\r\n");
-    printf("**    Web: http://www.witech.com.cn   **\r\n");
+    printf("**    BootLoad-0.1                    **\r\n");
+    printf("**    Updated for OK6410 	Board **\r\n");
+    printf("**    Version (2015-2-23)            **\r\n");
+    printf("**    Web: http://www.ecit.edu.cn   **\r\n");
     printf("****************************************\r\n");
 
     printf("\nCPU:     S3C6410 @%dMHz\n", get_ARMCLK()/1000000);
